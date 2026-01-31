@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  /*Para que el borde cuente dentro del tamaño del elemento y no sea externo a él*/
+}
+
+/* SECCIONES*/
+
+#seccionSuperior {
+  height: 50vh;
+  margin-top: 1%;
+  overflow: hidden;   /* esto hace que todo elemento que rebose del contenedor donde está no se muestre */
+}
+
+#seccionInferior {
+  height: 50vh;
+  overflow: hidden;
+}
+
+/* Cajas principales derecha e izquierda */
+
+.cajaIzquierda{
+  background-color: antiquewhite;
+  width: 45%;
+  height: 45vh;
+  border: 2px solid black;
+  border-radius: 25px;
+  float: left;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+.cajaDerecha{
+  background-color: antiquewhite;
+  width: 45%;
+  height: 45vh;
+  border: 2px solid black;
+  border-radius: 25px;
+  float: right;
+  margin-right: 20px;
+  padding-left: 10px;
+}
+
+/* Imagen principal*/
+
+.cajaImagen{
+  width: 39%;
+  height: 99%;
+  float: left;
+  text-align: center;
+}
+
+.cajaImagen img{
+  width: 100px;
+  height: 100px;
+  margin-top: 37%;
+}
+
+/* Caja de texto principal */
+
+.cajaTexto{
+  width: 59%;
+  height: 100%;
+  float: right;
+}
+
+.texto{
+  width: 99%;
+  height: 59%;
+}
+
+.texto h3{
+  font-family: monospace;
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+  padding-top: 25%;
+}
+
+.texto p{
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Caja de la firma */
+
+.firma{
+  width: 99%;
+  height: 29%;
+  padding-top: 10%;
+}
+
+.imagenFirma{
+  width: 20%;
+  height: 99%;
+  float: left;
+  text-align: center;
+}
+
+.imagenFirma img{
+  width: 50px;
+  height: 50px;
+  margin-top: 50%;
+  border-radius: 100%;
+  border: 2px solid black;
+}
+
+.nombreFirma{
+  width: 55%;
+  height: 99%;
+  float: left;
+}
+
+.nombreUsuario{
+  margin-top: 20%;
+  text-align: center;
+}
+
+.fechaUsuario{
+  text-align: center;
+  
+}
+
+.iconoFirma{
+  width: 25%;
+  height: 99%;
+  float: left;
+  text-align: center;
+}
+
+.iconoFirma img{
+  width: 50px;
+  height: 50px;
+  margin-top: 35%;
+}
