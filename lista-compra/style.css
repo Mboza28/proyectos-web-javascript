@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding:20px 40px;
+}
+.carrito{
+    display: inline-flex;
+    align-items: center;
+    gap:25px;
+}
+#miCompra{
+    height: 50px;
+    width: 200px;
+    font-size: 15px;
+}
+
+#miBoton{
+    color: aliceblue;
+    background-color: royalblue;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 40px;
+}
